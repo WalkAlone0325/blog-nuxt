@@ -16,8 +16,8 @@
       </li>
     </ul>
     <Paginator
-      :cur_page="Number(page)"
-      :page_size="Number(size)"
+      :curPage="Number(page)"
+      :pageSize="Number(size)"
       :total="Number(total)"
       @jump="jump"
       v-show="total!=0"
@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/css/_variables";
+@import '@/assets/css/_variables';
 
 .record-page {
   // width: 100%;

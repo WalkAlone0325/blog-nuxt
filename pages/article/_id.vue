@@ -108,7 +108,7 @@ export default {
     return {
       title: this.articleItem.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.articleItem.intro }
+        { name: 'description', content: this.articleItem.intro }
       ]
     }
   },
@@ -154,7 +154,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~/assets/css/_variables.scss";
+@import '~/assets/css/_variables.scss';
 .detail-page {
   margin: 0 auto;
   .detail-header {

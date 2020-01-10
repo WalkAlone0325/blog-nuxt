@@ -24,7 +24,7 @@ import _1a4b4334 from '..\\layouts\\SideBar.vue'
 const layouts = { "_default": _6f6c098b,"_EyesItem": _0b0244ab,"_FooterComp": _1f220040,"_HeaderComp": _11a163d2,"_SideBar": _1a4b4334 }
 
 export default {
-  head: {"title":"独行的博客","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"IT，前端，文章，博客，blog，web"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+  head: {"title":"独行的博客","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"keyword","content":"IT，前端，文章，博客，blog，web，程序员，vue，SSR，react，node，小程序"},{"hid":"description","name":"description","content":"独行的前端技术博客，记录学习笔记，写技术博客文章，收藏一些大神的文章，收录一些好用的开发工具。"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
   render (h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })

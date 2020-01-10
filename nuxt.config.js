@@ -9,6 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'keyword', content: 'IT，前端，文章，博客，blog，web，程序员，vue，SSR，react，node，小程序' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [

@@ -1,7 +1,7 @@
 {
   "name": "blog-nuxt",
   "version": "1.0.0",
-  "description": "IT，前端，文章，博客，blog，web",
+  "description": "独行的前端技术博客，记录学习笔记，写技术博客文章，收藏一些大神的文章，收录一些好用的开发工具。",
   "author": "独行",
   "private": true,
   "scripts": {

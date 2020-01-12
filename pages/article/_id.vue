@@ -3,13 +3,23 @@
     <div class="detail-header bg-img-ani">
       <!-- :style="`background:url(${articleItem.image}) no-repeat;background-size:100% auto;`" -->
       <h1>{{ articleItem.title }}</h1>
-      <span class="detail-avatar">作者：{{ articleItem.avatar }}</span>
       <span class="detail-avatar">
+        <i class="iconfont icon-pinglun" />
+        <span>作者：</span>
+        {{ articleItem.avatar }}
+      </span>
+      <span class="detail-avatar">
+        <i class="iconfont icon-biaoqian" />
+        <span>标签：</span>
         <span v-for="item in articleItem.tags" :key="item._id">
-          <span class="detail-tag">标签：{{ item.tag }}</span>
+          <span class="detail-tag">{{ item.tag }}</span>
         </span>
       </span>
-      <span class="detail-date">发布时间：{{ articleItem.updated | timeFormat }}</span>
+      <span class="detail-date">
+        <i class="iconfont icon-shijian" />
+        <span>发布时间：</span>
+        {{ articleItem.updated | timeFormat }}
+      </span>
     </div>
     <div class="detail-body">
       <div class="detail-left">
@@ -174,10 +184,11 @@ export default {
         margin-right: 10px;
       }
       .detail-tag {
-        margin: 0 10px;
+        margin: 0 10px 0 0;
       }
     }
     .detail-date {
+      margin-top: 5px;
       color: $color-white;
     }
   }

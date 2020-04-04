@@ -1,1 +1,0 @@
-exports.ids=[6],exports.modules={115:function(e,t,o){"use strict";o.r(t);var r={asyncData:({redirect:e})=>e("/home")},c=o(1),component=Object(c.a)(r,void 0,void 0,!1,null,null,"6c49c6fe");t.default=component.exports}};

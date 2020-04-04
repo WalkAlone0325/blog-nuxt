@@ -25,6 +25,12 @@ export default {
     FooterComp,
     EyesItem,
     SideBar
+  },
+  mounted () {
+    // 记 2020-04-04 清明节疫情全国哀悼
+    if (new Date().getTime() < new Date('2020-04-04').setHours(23, 59, 59, 999)) {
+      document.body.style = 'filter:grayscale(100%)'
+    }
   }
 }
 </script>

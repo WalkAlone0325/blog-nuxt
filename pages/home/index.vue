@@ -3,10 +3,8 @@
     <!-- 头部 -->
     <div class="home-info">
       <div class="info">
-        <img class="info-img" src="~/assets/images/avatar.jpg" alt>
-        <h1 class="info-avatar">
-          独行
-        </h1>
+        <img class="info-img" src="~/assets/images/avatar.jpg" alt />
+        <h1 class="info-avatar">独行</h1>
         <span class="info-introduce">小小前端开发者</span>
       </div>
     </div>

@@ -3,15 +3,15 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _c5197754 = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages_about_index" */))
-const _a6af1ec0 = () => interopDefault(import('..\\pages\\archives\\index.vue' /* webpackChunkName: "pages_archives_index" */))
-const _fa2b25e6 = () => interopDefault(import('..\\pages\\article\\index.vue' /* webpackChunkName: "pages_article_index" */))
-const _043f2e72 = () => interopDefault(import('..\\pages\\home\\index.vue' /* webpackChunkName: "pages_home_index" */))
-const _3d270477 = () => interopDefault(import('..\\pages\\link\\index.vue' /* webpackChunkName: "pages_link_index" */))
-const _63fc69ec = () => interopDefault(import('..\\pages\\project\\index.vue' /* webpackChunkName: "pages_project_index" */))
-const _6058a600 = () => interopDefault(import('..\\pages\\record\\index.vue' /* webpackChunkName: "pages_record_index" */))
-const _005a4eb5 = () => interopDefault(import('..\\pages\\article\\_id.vue' /* webpackChunkName: "pages_article__id" */))
-const _17905171 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _60771d3a = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages_about_index" */))
+const _21320c73 = () => interopDefault(import('..\\pages\\archives\\index.vue' /* webpackChunkName: "pages_archives_index" */))
+const _65a48ada = () => interopDefault(import('..\\pages\\article\\index.vue' /* webpackChunkName: "pages_article_index" */))
+const _fc84a876 = () => interopDefault(import('..\\pages\\home\\index.vue' /* webpackChunkName: "pages_home_index" */))
+const _8ab4fc6c = () => interopDefault(import('..\\pages\\link\\index.vue' /* webpackChunkName: "pages_link_index" */))
+const _9e882e52 = () => interopDefault(import('..\\pages\\project\\index.vue' /* webpackChunkName: "pages_project_index" */))
+const _782d1a93 = () => interopDefault(import('..\\pages\\record\\index.vue' /* webpackChunkName: "pages_record_index" */))
+const _32ab7bc2 = () => interopDefault(import('..\\pages\\article\\_id.vue' /* webpackChunkName: "pages_article__id" */))
+const _807fedf8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -24,39 +24,39 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _c5197754,
+    component: _60771d3a,
     name: "about"
   }, {
     path: "/archives",
-    component: _a6af1ec0,
+    component: _21320c73,
     name: "archives"
   }, {
     path: "/article",
-    component: _fa2b25e6,
+    component: _65a48ada,
     name: "article"
   }, {
     path: "/home",
-    component: _043f2e72,
+    component: _fc84a876,
     name: "home"
   }, {
     path: "/link",
-    component: _3d270477,
+    component: _8ab4fc6c,
     name: "link"
   }, {
     path: "/project",
-    component: _63fc69ec,
+    component: _9e882e52,
     name: "project"
   }, {
     path: "/record",
-    component: _6058a600,
+    component: _782d1a93,
     name: "record"
   }, {
     path: "/article/:id",
-    component: _005a4eb5,
+    component: _32ab7bc2,
     name: "article-id"
   }, {
     path: "/",
-    component: _17905171,
+    component: _807fedf8,
     name: "index"
   }],
 
